@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>Coding Assesment L2 boilerplate</title>
+  </head>
+
+  <body>
+    <!-- Your code goes here -->
+
+    <section>
+      <div class="container">
+        <div class="product-image-section">
+          <div class="display-image">
+            <img src="./assets/1.jpg" alt="" />
+          </div>
+          <div class="image-thumbnails-group">
+            <div class="image-thumbnail active">
+              <img src="./assets/1.jpg" alt="" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="./assets/2.jpg" alt="" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="./assets/3.jpg" alt="" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="./assets/4.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="product-info-section">
+          <div class="product-vendor">Marmeto</div>
+          <div class="product-title">Embrace Sideboard</div>
+          <div class="product-price">
+            <div class="current-price">$12999.00</div>
+            <div class="percentage-off">35% Off</div>
+          </div>
+          <div class="compare-at-price">$19999.00</div>
+
+          <div class="color-selector">
+            <small>Choose a Color</small>
+            <div class="color-group">
+              <div class="color light-brown" data-color="Yellow">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div class="color light-green" data-color="Green"></div>
+              <div class="color light-purple" data-color="Blue"></div>
+              <div class="color light-pink" data-color="Pink"></div>
+            </div>
+          </div>
+          <div class="size-selector">
+            <small>Choose a Size</small>
+            <div class="size-group">
+              <div class="size active">
+                <input
+                  type="radio"
+                  id="small"
+                  name="size"
+                  data-size="Small"
+                  checked
+                />
+                <label for="small">Small</label>
+              </div>
+              <div class="size">
+                <input
+                  type="radio"
+                  id="medium"
+                  name="size"
+                  data-size="Medium"
+                />
+                <label for="medium">Medium</label>
+              </div>
+              <div class="size">
+                <input type="radio" id="large" name="size" data-size="Large" />
+                <label for="large">Large</label>
+              </div>
+              <div class="size">
+                <input
+                  type="radio"
+                  id="extraLarge"
+                  name="size"
+                  data-size="Extra Large"
+                />
+                <label for="extraLarge">Extra Large</label>
+              </div>
+              <div class="size">
+                <input type="radio" id="xxl" name="size" data-size="XXL" />
+                <label for="xxl">XXL</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="buttons-container">
+            <div class="quantity-selector">
+              <div class="quantity-container">
+                <div class="minus">-</div>
+                <div class="quantity">1</div>
+                <div class="plus">+</div>
+              </div>
+            </div>
+            <button class="add-to-cart-button">
+              <span>Add To Cart</span>
+            </button>
+          </div>
+          <div class="toast-message"></div>
+          <p class="product-description">
+            The Embrace Sideboard is a stylish wear. With a top cloth designed
+            to provide superior protection and look great, this storage solution
+            is both functional and attractive. It fits seamlessly into any home
+            decor, with clean lines and a timeless look. Crafted from premium
+            materials for a combination of style, durability, and reliability.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Happy coding 😊 -->
+    <script src="./script.js"></script>
+  </body>
+</html>
